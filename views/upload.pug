@@ -1,0 +1,12 @@
+extends layouts/main
+
+block content
+    .form-container
+        form(action = routes.upload, method ="post")
+            label(for="video file") video File
+            input(type="file", id ="video", name ="video")
+            input(type="text", placeholder = "Title", name = "title")
+            input(type="text", placeholder = "Description", name ="description")
+            input(type="submit", value ="Upload video")
+
+        a.form-container__link(href = routes.changePassword) changePassword
