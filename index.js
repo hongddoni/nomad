@@ -15,7 +15,10 @@ const betweenhome = (req,res, next) => {
     next();
 }
 
+
 app.use(helmet());
+// app.use(helmet.nocache());
+// app.use(helmet.hpkp());
 app.set("view engine", "pug");
 app.use(cookieParser());
 app.use(bodyParser.json());
