@@ -3,7 +3,7 @@ export const videos = [{
   title:'video',
   description : 'something',
   views:24,
-  videoFile:"",
+  videoFile:"https://youtu.be/buRG1eGuPIs",
   creator:{
       id:12314,
       name: "hong",
@@ -15,7 +15,7 @@ export const videos = [{
     title:'videoss',
     description : 'something',
     views:24,
-    videoFile:"",
+    videoFile:"https://youtu.be/buRG1eGuPIs",
     creator:{
         id:12314,
         name: "hong",
@@ -27,7 +27,7 @@ export const videos = [{
     title:'videos',
     description : 'something',
     views:24,
-    videoFile:"",
+    videoFile:"https://youtu.be/buRG1eGuPIs",
     creator:{
         id:12314,
         name: "hong",
@@ -39,7 +39,7 @@ export const videos = [{
     title:'videoaaa',
     description : 'something',
     views:24,
-    videoFile:"",
+    videoFile:"https://youtu.be/buRG1eGuPIs",
     creator:{
         id:12314,
         name: "hong",
